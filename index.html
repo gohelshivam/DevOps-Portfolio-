@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Shivam Gohel — DevOps Engineer portfolio. AWS, Docker, Jenkins, Terraform, Git and CI/CD projects.">
+  <title>Shivam Gohel | DevOps Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <header class="nav">
+    <a class="brand" href="#home" aria-label="Shivam Gohel home"><span>./</span>shivam</a>
+    <nav>
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+      <a href="#pipeline">CI/CD</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle light and dark theme">☼</button>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO DEVOPS OPPORTUNITIES</p>
+        <h1>Building reliable<br><span>cloud infrastructure.</span></h1>
+        <p class="hero-text">I'm <strong>Shivam Gohel</strong>, an MCA student and aspiring DevOps Engineer focused on AWS, Docker, Jenkins, Terraform, Git and CI/CD automation.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="mailto:shivam.gohel.dev@example.com">Contact Me</a>
+        </div>
+        <div class="terminal mini-terminal">
+          <div class="terminal-bar"><i></i><i></i><i></i><span>terminal</span></div>
+          <pre><code><span class="prompt">$</span> git status
+<span class="ok">On branch main</span>
+<span class="prompt">$</span> terraform plan
+<span class="ok">Infrastructure is ready to automate.</span></code></pre>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <div class="card-label">DEVOPS STACK</div>
+        <div class="stack-grid">
+          <span>Git</span><span>GitHub</span><span>Docker</span><span>Jenkins</span>
+          <span>AWS</span><span>Terraform</span><span>Linux</span><span>CI/CD</span>
+        </div>
+        <div class="metric-row">
+          <div><strong>01</strong><small>Cloud</small></div>
+          <div><strong>02</strong><small>Automation</small></div>
+          <div><strong>03</strong><small>Projects</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading reveal"><span>01</span><h2>About me</h2></div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>I enjoy turning application code into repeatable, automated deployments. My current focus is building practical DevOps projects that connect development, infrastructure and cloud operations.</p>
+          <p>I'm pursuing an <strong>MCA</strong> and actively strengthening my hands-on skills through projects involving AWS, Docker, Jenkins, Terraform, GitHub and Linux.</p>
+        </div>
+        <div class="info-card reveal">
+          <div><span>Role</span><strong>Fresher DevOps Engineer</strong></div>
+          <div><span>Education</span><strong>Master of Computer Applications</strong></div>
+          <div><span>Focus</span><strong>Cloud + CI/CD + IaC</strong></div>
+          <div><span>Location</span><strong>Ahmedabad, Gujarat</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-heading reveal"><span>02</span><h2>Technical skills</h2></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="icon">AWS</div><h3>Cloud & AWS</h3><p>EC2 · S3 · IAM · VPC · RDS · CloudWatch · Route 53 · ECR</p></article>
+        <article class="skill-card reveal"><div class="icon">&gt;_</div><h3>CI/CD Automation</h3><p>Jenkins · GitHub Actions · Webhooks · Build & deployment pipelines</p></article>
+        <article class="skill-card reveal"><div class="icon">TF</div><h3>Infrastructure as Code</h3><p>Terraform · Providers · Modules · State · Remote backend</p></article>
+        <article class="skill-card reveal"><div class="icon">DO</div><h3>Containers</h3><p>Docker · Dockerfiles · Images · Containers · Docker Hub · ECR</p></article>
+        <article class="skill-card reveal"><div class="icon">GIT</div><h3>Version Control</h3><p>Git · GitHub · Branching · Merging · Pull/Push · Remote repositories</p></article>
+        <article class="skill-card reveal"><div class="icon">LNX</div><h3>System & Scripting</h3><p>Linux · Bash basics · Environment configuration · Troubleshooting</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-heading reveal"><span>03</span><h2>Featured projects</h2></div>
+      <div class="projects-grid">
+        <article class="project-card featured reveal">
+          <div class="project-top"><span class="tag">DEVOPS</span><span>01</span></div>
+          <h3>RisingField — CI/CD Cloud Deployment</h3>
+          <p>Automating an application delivery workflow using Git, GitHub, Docker, Docker Hub, AWS and Terraform.</p>
+          <div class="tech"><span>GitHub</span><span>Docker</span><span>AWS</span><span>Terraform</span><span>CI/CD</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-top"><span class="tag">AUTOMATION</span><span>02</span></div>
+          <h3>Jenkins + Docker Deployment</h3>
+          <p>Hands-on pipeline practice covering source checkout, Docker image creation and deployment to AWS infrastructure.</p>
+          <div class="tech"><span>Jenkins</span><span>Docker</span><span>AWS EC2</span><span>GitHub</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-top"><span class="tag">IAC</span><span>03</span></div>
+          <h3>AWS Infrastructure with Terraform</h3>
+          <p>Provisioning repeatable AWS resources while learning providers, state management, variables, modules and remote backends.</p>
+          <div class="tech"><span>Terraform</span><span>AWS</span><span>EC2</span><span>VPC</span><span>S3</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="pipeline" class="section container">
+      <div class="section-heading reveal"><span>04</span><h2>CI/CD pipeline</h2></div>
+      <div class="pipeline-card reveal">
+        <div class="pipeline">
+          <div class="node"><b>01</b><strong>Code</strong><small>Git</small></div><i></i>
+          <div class="node"><b>02</b><strong>Build</strong><small>Jenkins</small></div><i></i>
+          <div class="node"><b>03</b><strong>Container</strong><small>Docker</small></div><i></i>
+          <div class="node"><b>04</b><strong>Provision</strong><small>Terraform</small></div><i></i>
+          <div class="node"><b>05</b><strong>Deploy</strong><small>AWS</small></div>
+        </div>
+        <p class="pipeline-caption"><span class="status-dot"></span> Automated path from source code to cloud deployment</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading reveal"><span>05</span><h2>Certifications & learning</h2></div>
+      <div class="cert-grid">
+        <div class="cert-card reveal"><span class="cert-mark">CERT</span><div><h3>Linux Foundation</h3><p>Linux & open-source fundamentals</p></div></div>
+        <div class="cert-card reveal"><span class="cert-mark">ML</span><div><h3>Machine Learning with Python</h3><p>freeCodeCamp learning credential</p></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container reveal">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Ready to build and automate.</h2>
+      <p>I'm looking for an opportunity to grow as a DevOps Engineer and contribute to real-world cloud automation.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="mailto:shivam.gohel.dev@example.com">Email Me</a>
+        <a class="btn secondary" href="https://github.com/gohelshivam" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="btn secondary" href="https://www.linkedin.com/in/gohel-shivam-9b567a24a/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container"><span>© <span id="year"></span> Shivam Gohel</span><span>Built with HTML · CSS · JavaScript</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
